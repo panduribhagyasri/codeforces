@@ -14,19 +14,35 @@ int main()
 answer:
 #include <iostream>
 #include <cstdio>
+#include<iomanip>
 using namespace std;
 
 int main() {
     
     int a;
-    long b ; 
+    long long b ; 
     char c ;
     float d;
     double e;
 
      cin >> a >> b >> c >> d >> e;
      //printf("%d\n%ld\n%c\n%0.3f\n%0.9lf",*&a,*&b,*&c,*&d,*&e);
-    cout<<a<<"\n"<<b<<"\n"<<c<<"\n"<<d<<"\n"<<e;// giving errors
+    cout<<a<<"\n"<<b<<"\n"<<c<<"\n"<<d<<"\n"<<setprecision(11)<<e;// giving errors
 
     return 0;
+}
+
+..............................................................................................
+3.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/C
+A.
+#include<iostream>
+using namespace std;
+int main()
+{
+    int64_t a,b;
+    cin>>a>>b;
+    cout<<a <<" + "<<b<<" = "<<a+b<<"\n";
+    cout<<a <<" * "<<b<<" = "<<a*b<<"\n";
+    cout<<a <<" - "<<b<<" = "<<a-b;
+    
 }
