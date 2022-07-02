@@ -1,0 +1,32 @@
+1.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/A
+Answer:
+#include<iostream>
+using namespace std;
+int main()
+{
+    string n;
+    cin>>n;
+    cout<<"Hello,"+n;
+}
+.........................................................................................
+
+2.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/B
+answer:
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    
+    int a;
+    long b ; 
+    char c ;
+    float d;
+    double e;
+
+     cin >> a >> b >> c >> d >> e;
+     //printf("%d\n%ld\n%c\n%0.3f\n%0.9lf",*&a,*&b,*&c,*&d,*&e);
+    cout<<a<<"\n"<<b<<"\n"<<c<<"\n"<<d<<"\n"<<e;// giving errors
+
+    return 0;
+}
