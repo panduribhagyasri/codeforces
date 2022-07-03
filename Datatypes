@@ -46,3 +46,39 @@ int main()
     cout<<a <<" - "<<b<<" = "<<a-b;
     
 }
+...........................................................................................................
+4.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/D
+A:
+#include <iostream>
+#include <cstdio>
+#include<iomanip>
+using namespace std;
+
+int main() {
+    
+    int64_t a,b,c,d,e;
+    cin>>a>>b>>c>>d;
+    e=(a*b)-(c*d);
+    cout<<"Difference = "<<e;
+
+    return 0;
+}
+...............................................................................................................
+5.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/E
+A:
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+     cout << fixed << setprecision(9);
+     double radius;
+     cin>>radius;
+     cout<<3.141592653*radius*radius;
+     
+}
+........................................................................................................................
+6.
+A.
+
+
