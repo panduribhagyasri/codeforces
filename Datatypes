@@ -78,7 +78,20 @@ int main()
      
 }
 ........................................................................................................................
-6.
+6.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/F
 A.
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+     int64_t a,b,c,d;
+     cin>>a>>b;
+     c=a%10;
+     d=b%10;
+     cout<<c+d;
+}
+................................................................................................
+7.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/G
 
 
