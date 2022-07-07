@@ -316,7 +316,39 @@ A:
 A:
 .............................................................................................
 23.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/W
-A:
+A:#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,e;
+    char c,d;
+    cin>>a>>c>>b>>d>>e;
+    int f=(int)c;
+    
+    switch(f)
+    {
+        case 43:
+            if((a+b)==e)
+                cout<<"Yes";
+            else
+                cout<<a+b;
+            break;
+        case 45:
+            if((a-b)==e)
+                cout<<"Yes";
+            else
+                cout<<a-b;
+            break;
+        case 42:
+            if((a*b)==e)
+                cout<<"Yes";
+            else
+                cout<<a*b;
+            break;
+        default:
+            cout<<" wrong input";
+    }
+}
 .............................................................................................
 24.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/X
 A:
