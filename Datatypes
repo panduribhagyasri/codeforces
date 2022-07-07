@@ -311,6 +311,27 @@ A:
 .............................................................................................
 21.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/U
 A:
+#include<iostream>
+#include<iomanip>
+#include<cmath>
+#include<algorithm>
+using namespace std;
+int main()
+{
+    float a;
+    cin>>a;
+    int x=a;
+    float temp=a-x;
+    if(temp==0)
+    {
+        cout<<"int "<<x;
+    }
+    else
+    {
+        cout << fixed << setprecision(3);
+        cout<<"float "<<x<<" "<<temp;
+    }
+}
 .............................................................................................
 22.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/V
 A:
