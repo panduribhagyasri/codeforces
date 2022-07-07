@@ -161,17 +161,102 @@ int main()
 }
 .............................................................................................
 12.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/L
-A:
+A:#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    string a,b,c,d;
+    cin>>a>>b;
+    cin>>c>>d;
+    if(b==d)
+    {
+        cout<<"ARE Brothers";
+    }
+    else
+    {
+        cout<<"NOT";
+    }
+    
+}
 .............................................................................................
 13.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/M
-A:
+A:#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    char b;
+    cin>>b;
+    int ascii=(int)b;
+    if(97<=ascii)
+    {
+        cout<<"ALPHA"<<endl;
+        cout<<"IS SMALL";
+    }
+    else if(ascii>=65)
+    {
+        cout<<"ALPHA"<<endl;
+        cout<<"IS CAPITAL";
+    }
+    else if(ascii>=48)
+    {
+        cout<<"IS DIGIT";
+    }
+}
 .............................................................................................
 14.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/N
-
-A:
+A:#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    char b;
+    cin>>b;
+    int ascii=(int)b;
+    if(ascii>=97)
+    {
+        int c=ascii-32;
+        char val=(char)c;
+        cout<<val<<endl;
+    }
+    else
+    {
+        int c=ascii+32;
+        char val=(char)c;
+        cout<<val<<endl;
+    }
+    
+}
 .............................................................................................
 15.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/O
 A:
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    int a,b;
+    char c;
+    cin>>a>>c>>b;
+    if(c=='+')
+    {
+        cout<<a+b;
+    }
+    if(c=='-')
+    {
+        cout<<a-b;
+    }
+    if(c=='*')
+    {
+        cout<<a*b;
+    }
+    if(c=='/')
+    {
+        cout<<a/b;
+    }
+    
+}
 .............................................................................................
 
 16.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/P
