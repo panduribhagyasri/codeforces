@@ -260,16 +260,73 @@ int main()
 .............................................................................................
 
 16.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/P
-A:
+A:#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a;
+    while(a>=10)
+    {
+        a/=10;
+        
+    }
+    if(a%2==0)
+    {
+        cout<<"EVEN";
+    }
+    else
+    {
+        cout<<"ODD";
+    }
+    
+}
 .............................................................................................
 17.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Q
 A:
 .............................................................................................
-18.
+18.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/R
+A:#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    int a,b,c,d;
+    cin>>a;
+    //b=a-365;
+    //c=b/30;
+    b=a/365;
+    c=((a%365)/30);
+    d=a-((365*b)+(30*c));
+    
+    cout<<b<<" years"<<endl<<c<<" months"<<endl<<d<<" days";
+}
+.............................................................................................
+19.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/S
 A:
 .............................................................................................
-19.
+20.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/T
 A:
 .............................................................................................
+21.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/U
+A:
+.............................................................................................
+22.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/V
+A:
+.............................................................................................
+23.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/W
+A:
+.............................................................................................
+24.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/X
+A:
+.............................................................................................
+25.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Y
+A:
+.............................................................................................
+26.https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Z
+A:
+.............................................................................................
+
 
 
